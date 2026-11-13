@@ -11,7 +11,7 @@ Newest first. Date = the day the result was published.
 | Date | Result | Code | Posts |
 |---|---|---|---|
 | 2026-11-12 | Training one network on two losses added together hurts the thing with the smaller loss (paper in progress) | [two-losses-one-network](https://github.com/vukrosic/two-losses-one-network) | |
-| 2026-11-12 | Hash routing in mixture-of-experts LLMs: when each vocabulary token should have its own fixed expert (paper in progress) | [llm-hash-routing](https://github.com/vukrosic/llm-hash-routing) | |
+| 2026-11-12 | Hash Routing: When Should Each Token in the Vocabulary Have Its Own Fixed Expert? A fixed word-to-expert table trains as well as a learned router, and stays balanced up to about 26 experts per chosen expert; sending “the”, “,” and “.” to the shared expert raises the limit to about 42. (paper in progress) | [llm-hash-routing](https://github.com/vukrosic/llm-hash-routing) | |
 | 2026-10-30 | SetGram: key an LLM's n-gram memory by the set of words, not their order, so it recalls facts asked in new words | [ngram-hints-llm](https://github.com/vukrosic/ngram-hints-llm) | |
 | 2026-10-22 | Adaptive k in DeepSeek sparse attention: each token decides how many tokens to read | [deepseek-sparse-attention-adaptive-k](https://github.com/vukrosic/deepseek-sparse-attention-adaptive-k) | |
 | 2026-10-22 | Attention without value matrices in some layers | [no-v-attention](https://github.com/vukrosic/no-v-attention) | |
@@ -33,7 +33,7 @@ Newest first. Date = the day the result was published.
 | Started | Question | Repo |
 |---|---|---|
 | 2026-11-12 | Training one network on two losses added together hurts the thing with the smaller loss | [two-losses-one-network](https://github.com/vukrosic/two-losses-one-network) |
-| 2026-11-12 | When should each vocabulary token have its own fixed expert in an MoE LLM? | [llm-hash-routing](https://github.com/vukrosic/llm-hash-routing) |
+| 2026-11-12 | Hash Routing: When Should Each Token in the Vocabulary Have Its Own Fixed Expert? | [llm-hash-routing](https://github.com/vukrosic/llm-hash-routing) |
 | 2026-11-07 | Does a world model plan better when it models another agent separately? | [world-models-other-agents](https://github.com/Open-Superintelligence-Lab/world-models-other-agents) |
 | 2026-11-07 | What each part of an LLM memory design does | [llm-memory-parts](https://github.com/Open-Superintelligence-Lab/llm-memory-parts) |
 | 2026-11-07 | What an LLM can and can't do by writing network weights | [llm-written-weights](https://github.com/Open-Superintelligence-Lab/llm-written-weights) |
