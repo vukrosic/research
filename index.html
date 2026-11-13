@@ -41,46 +41,48 @@ footer{margin-top:3rem;color:var(--muted);font-size:14px}
 <ul>
 <li><div class="t">Recursive Latent Reasoning by Topological Contraction</div>
 <div class="d">Reasoning by repeatedly refining a latent state.</div>
-<div class="m">2026 · <a href="https://github.com/vukrosic/latent-topological-contraction-reasoning/blob/main/paper.pdf">PDF</a> · <a href="https://github.com/vukrosic/latent-topological-contraction-reasoning">code</a></div></li>
+<div class="m">2026-02-14 · <a href="https://github.com/vukrosic/latent-topological-contraction-reasoning/blob/main/paper.pdf">PDF</a> · <a href="https://github.com/vukrosic/latent-topological-contraction-reasoning">code</a></div></li>
 <li><div class="t">Analysis and Design of Novel Optimizers for Neural Networks</div>
-<div class="m">2025 · <a href="https://github.com/vukrosic/analysis-of-optimizers/blob/main/paper.pdf">PDF</a> · <a href="https://github.com/vukrosic/analysis-of-optimizers">code</a></div></li>
+<div class="m">2025-11-30 · <a href="https://github.com/vukrosic/analysis-of-optimizers/blob/main/paper.pdf">PDF</a> · <a href="https://github.com/vukrosic/analysis-of-optimizers">code</a></div></li>
 <li><div class="t">Auto-Selection between Linear and Full Attention Layers for Every Token</div>
-<div class="m">2025 · <a href="https://github.com/vukrosic/linear-attention-research/blob/main/paper.pdf">PDF</a> · <a href="https://github.com/vukrosic/linear-attention-research">code</a></div></li>
+<div class="m">2025-12-02 · <a href="https://github.com/vukrosic/linear-attention-research/blob/main/paper.pdf">PDF</a> · <a href="https://github.com/vukrosic/linear-attention-research">code</a></div></li>
 </ul>
 
 <h2>Results with code</h2>
 <ul>
 <li><div class="t"><a href="https://github.com/vukrosic/two-losses-one-network">Training one network on two losses added together hurts the thing with the smaller loss</a><span class="tag">paper in progress</span></div>
 <div class="d">Across 519 shared networks in four worlds, the smaller-loss term's extra error follows P − 1 ≈ 0.15 Λ<sup>0.75</sup>, where Λ is the loss ratio.</div>
-<div class="m">Nov 2026</div></li>
+<div class="m">2026-11-12</div></li>
 <li><div class="t"><a href="https://github.com/vukrosic/llm-hash-routing">Hash routing in mixture-of-experts LLMs</a></div>
 <div class="d">When each vocabulary token should have its own fixed expert.</div>
-<div class="m">Nov 2026</div></li>
+<div class="m">2026-11-12</div></li>
 <li><div class="t"><a href="https://github.com/vukrosic/ngram-hints-llm">SetGram: n-gram memory keyed by the set of words</a></div>
 <div class="d">Keying an LLM's n-gram memory by the set of words, not their order, so it recalls facts asked in new words.</div>
-<div class="m">Oct 2026</div></li>
+<div class="m">2026-10-30</div></li>
 <li><div class="t"><a href="https://github.com/vukrosic/muon-row-fix">When equal-length rows help the Muon optimizer</a></div>
 <div class="d">When making every row of Muon's update the same length helps, and where to apply it in recent open LLMs.</div>
-<div class="m">Oct 2026</div></li>
+<div class="m">2026-10-19</div></li>
 <li><div class="t"><a href="https://github.com/vukrosic/muon-random-momentum">Muon momentum along random directions</a></div>
 <div class="d">Storing momentum along random directions instead of the strongest (SVD) ones gives the same benefit with less memory.</div>
-<div class="m">Oct 2026</div></li>
+<div class="m">2026-10-20</div></li>
 <li><div class="t"><a href="https://github.com/vukrosic/greedy-heads-muon">Per-head vs whole-matrix Muon on attention</a></div>
 <div class="d">Per-head Muon on q and k leads early and the lead shrinks; head crowding explains the late loss.</div>
-<div class="m">Oct 2026</div></li>
+<div class="m">2026-10-21</div></li>
 <li><div class="t"><a href="https://github.com/vukrosic/muon-formula-grid">Cheapest Newton–Schulz formula for Muon</a></div>
 <div class="d">A grid of Newton–Schulz-type formulas, a picker page and coefficients for each target.</div>
-<div class="m">Oct 2026</div></li>
+<div class="m">2026-10-18</div></li>
 <li><div class="t"><a href="https://github.com/vukrosic/deepseek-sparse-attention-adaptive-k">Adaptive k in DeepSeek sparse attention</a></div>
 <div class="d">Letting each token decide how many tokens to read.</div>
-<div class="m">Oct 2026</div></li>
+<div class="m">2026-10-22</div></li>
 <li><div class="t"><a href="https://github.com/vukrosic/no-v-attention">Attention without value matrices</a></div>
 <div class="d">Deleting the attention value matrices from some layers of an LLM.</div>
-<div class="m">Oct 2026</div></li>
+<div class="m">2026-10-22</div></li>
 </ul>
 
-<h2>Open papers in progress</h2>
+<h2>Papers in progress</h2>
 <ul>
+<li><div class="t"><a href="https://github.com/vukrosic/two-losses-one-network">Training one network on two losses added together hurts the thing with the smaller loss</a></div><div class="m">started 2026-11-12</div></li>
+<li><div class="t"><a href="https://github.com/vukrosic/llm-hash-routing">When each vocabulary token should have its own fixed expert in an MoE LLM</a></div><div class="m">started 2026-11-12</div></li>
 <li><div class="t"><a href="https://github.com/Open-Superintelligence-Lab/muon-llm-parts">How Muon influences each part of an LLM</a></div></li>
 <li><div class="t"><a href="https://github.com/Open-Superintelligence-Lab/world-models-other-agents">Does a world model plan better when it models another agent separately?</a></div></li>
 <li><div class="t"><a href="https://github.com/Open-Superintelligence-Lab/llm-memory-parts">What each part of an LLM memory design does</a></div></li>
