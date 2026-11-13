@@ -10,8 +10,8 @@ Newest first. Date = the day the result was published.
 
 | Date | Result | Code | Posts |
 |---|---|---|---|
+| 2026-11-14 | Hash Routing: When Should Each Token in the Vocabulary Have Its Own Fixed Expert? A fixed word-to-expert table trains as well as a learned router, and stays balanced up to about 26 experts per chosen expert; sending “the”, “,” and “.” to the shared expert raises the limit to about 42. (paper in progress) | [llm-hash-routing](https://github.com/vukrosic/llm-hash-routing) | |
 | 2026-11-12 | Training one network on two losses added together hurts the thing with the smaller loss (paper in progress) | [two-losses-one-network](https://github.com/vukrosic/two-losses-one-network) | |
-| 2026-11-12 | Hash Routing: When Should Each Token in the Vocabulary Have Its Own Fixed Expert? A fixed word-to-expert table trains as well as a learned router, and stays balanced up to about 26 experts per chosen expert; sending “the”, “,” and “.” to the shared expert raises the limit to about 42. (paper in progress) | [llm-hash-routing](https://github.com/vukrosic/llm-hash-routing) | |
 | 2026-10-30 | SetGram: key an LLM's n-gram memory by the set of words, not their order, so it recalls facts asked in new words | [ngram-hints-llm](https://github.com/vukrosic/ngram-hints-llm) | |
 | 2026-10-22 | Adaptive k in DeepSeek sparse attention: each token decides how many tokens to read | [deepseek-sparse-attention-adaptive-k](https://github.com/vukrosic/deepseek-sparse-attention-adaptive-k) | |
 | 2026-10-22 | Attention without value matrices in some layers | [no-v-attention](https://github.com/vukrosic/no-v-attention) | |
